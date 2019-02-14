@@ -1,0 +1,18 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "My first Electron JS app ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon electron ."
+  },
+  "author": "Felix Avelar",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.4"
+  },
+  "dependencies": {
+    "electron-reload": "^1.4.0"
+  }
+}
